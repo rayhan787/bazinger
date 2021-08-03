@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?07b258b6d7e3f264000a0af4415e0eac") format("truetype"),
+url("./flaticon.woff?07b258b6d7e3f264000a0af4415e0eac") format("woff"),
+url("./flaticon.woff2?07b258b6d7e3f264000a0af4415e0eac") format("woff2"),
+url("./flaticon.eot?07b258b6d7e3f264000a0af4415e0eac#iefix") format("embedded-opentype"),
+url("./flaticon.svg?07b258b6d7e3f264000a0af4415e0eac#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-linkedin:before {
+    content: "\f101";
+}
+.flaticon-facebook:before {
+    content: "\f102";
+}
+.flaticon-behance:before {
+    content: "\f103";
+}
+.flaticon-twitter:before {
+    content: "\f104";
+}
+.flaticon-google-plus:before {
+    content: "\f105";
+}
+.flaticon-star:before {
+    content: "\f106";
+}
+.flaticon-apple-logo:before {
+    content: "\f107";
+}
+.flaticon-android-logo:before {
+    content: "\f108";
+}
